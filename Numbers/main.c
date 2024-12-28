@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(int argc, const char * argv[]) {
     printf("Integers be like:\n\n");
@@ -21,6 +22,11 @@ int main(int argc, const char * argv[]) {
     double y = 12345.6789;
     printf("y is %.2f\n", y);
     printf("y is %.2e\n", y);
+    
+    printf("\nUsing the math library:\n\n");
+    
+    double mySine = sin(1);
+    printf("%.3f\n", mySine);
     
     return 0;
 }
