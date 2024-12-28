@@ -8,9 +8,9 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    long x = 255;
+    unsigned long x = 255;
     
-    printf("x is %ld.\n", x);
+    printf("x is %lu.\n", x);
     printf("In octal, x is %lo.\n", x);
     printf("In hexadecimal, x is %lx.\n", x);
     
