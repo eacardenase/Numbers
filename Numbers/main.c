@@ -8,11 +8,11 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    int x = 255;
+    long x = 255;
     
-    printf("x is %d.\n", x);
-    printf("In octal, x is %o.\n", x);
-    printf("In hexadecimal, x is %x.\n", x);
+    printf("x is %ld.\n", x);
+    printf("In octal, x is %lo.\n", x);
+    printf("In hexadecimal, x is %lx.\n", x);
     
     return 0;
 }
